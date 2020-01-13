@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    box-sizing:border-box;
+}
+.ppal{
+    margin: 10px;
+}
+.encabezado{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+.logo{
+    height: 30px;
+    margin: 10px 20px;
+}
+.logo img{
+    height: 30px;
+}
+.navegador{
+    width: 83%;
+    padding: 0;
+    margin: 13px;
+    height: 30px;
+}
+.navegador input{
+    height: 32px;
+    width: -webkit-fill-available;
+}
+.theme-slider .nivoSlider{
+    position: relative;
+
+}
+.them-slider .nivoSlider a{
+    border: 0;
+    display: block;
+}
+
+.theme-slider .nivo-control{
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #545454;
+    margin: 3px;
+    text-indent: -9999px;
+}
+.theme-slider .nivo-control:hover{
+    background:#1B1B1B;
+}
+.nivo-controlNav{
+    display: flex;
+    justify-content: center;
+}
+.theme-slider .active{
+    background:#1B1B1B;
+}
+.nivo-directionNAv a{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+.nivo-directionNav .nivo-prevNav{
+    background-image: url(../img/icon/circle-left.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    text-indent:-9999px;
+    left:12px;
+}
+.nivo-directionNav .nivo-nextNav{
+    background-image: url(../img/icon/circle-right.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    text-indent:-9999px;
+    right: 12px;
+}
+.slider-wrap{
+    margin: 10px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    border: #1B1B1B;
+}
+.cont2{
+    margin: 20px;
+    border: #545454;
+    border-style: double;
+    width: -webkit-fill-available;
+    height: 251px;
+    border-radius: 4%;
+}
+.cont2 h1{
+    text-align: center;
+    color: #545454 ;
+}
+.imagen{
+    height: 70%;
+    background-size: cover;
+    margin: 4% 8%;
+    width: 85%;
+}
